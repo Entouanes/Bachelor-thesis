@@ -1,0 +1,1 @@
+This folder contains the .h5 raw files of the samples, which informations can be found in "metadata.csv" (note that the files are not uploaded to github but only stored on the cluster).

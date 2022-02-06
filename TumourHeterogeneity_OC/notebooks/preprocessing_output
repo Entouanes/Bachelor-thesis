@@ -1,0 +1,153 @@
+Sender: LSF System <lsfadmin@le-g3-008>
+Subject: Job 3911360: <python /cluster/home/antoinco/scRNA_shared_signatures/src/reprocessing/main.py +cancer=ovarian> in cluster <ethsec> Exited
+
+Job <python /cluster/home/antoinco/scRNA_shared_signatures/src/reprocessing/main.py +cancer=ovarian> was submitted from host <le-g3-005> by user <antoinco> in cluster <ethsec> at Sat Feb  5 19:54:08 2022
+Job was executed on host(s) <16*le-g3-008>, in queue <normal.4h>, as user <antoinco> in cluster <ethsec> at Sat Feb  5 19:54:09 2022
+</cluster/home/antoinco> was used as the home directory.
+</cluster/home/antoinco/thesis/TumourHeterogeneity_OC/notebooks> was used as the working directory.
+Started at Sat Feb  5 19:54:09 2022
+Terminated at Sat Feb  5 19:54:13 2022
+Results reported at Sat Feb  5 19:54:13 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /cluster/home/antoinco/scRNA_shared_signatures/src/reprocessing/main.py +cancer=ovarian
+------------------------------------------------------------
+
+Exited with exit code 2.
+
+Resource usage summary:
+
+    CPU time :                                   0.27 sec.
+    Max Memory :                                 10 MB
+    Average Memory :                             -
+    Total Requested Memory :                     131072.00 MB
+    Delta Memory :                               131062.00 MB
+    Max Swap :                                   -
+    Max Processes :                              -
+    Max Threads :                                -
+    Run time :                                   3 sec.
+    Turnaround time :                            5 sec.
+
+The output (if any) follows:
+
+python: can't open file '/cluster/home/antoinco/scRNA_shared_signatures/src/reprocessing/main.py': [Errno 2] No such file or directory
+Sender: LSF System <lsfadmin@le-g3-012>
+Subject: Job 3911372: <python /cluster/home/antoinco/scRNA_shared_signatures/src/preprocessing/main.py +cancer=ovarian> in cluster <ethsec> Exited
+
+Job <python /cluster/home/antoinco/scRNA_shared_signatures/src/preprocessing/main.py +cancer=ovarian> was submitted from host <le-g3-012> by user <antoinco> in cluster <ethsec> at Sat Feb  5 21:36:53 2022
+Job was executed on host(s) <16*le-g3-012>, in queue <normal.4h>, as user <antoinco> in cluster <ethsec> at Sat Feb  5 21:37:19 2022
+</cluster/home/antoinco> was used as the home directory.
+</cluster/home/antoinco/thesis/TumourHeterogeneity_OC/notebooks> was used as the working directory.
+Started at Sat Feb  5 21:37:19 2022
+Terminated at Sat Feb  5 21:37:37 2022
+Results reported at Sat Feb  5 21:37:37 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /cluster/home/antoinco/scRNA_shared_signatures/src/preprocessing/main.py +cancer=ovarian
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   3.73 sec.
+    Max Memory :                                 330 MB
+    Average Memory :                             99.00 MB
+    Total Requested Memory :                     131072.00 MB
+    Delta Memory :                               130742.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   17 sec.
+    Turnaround time :                            44 sec.
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/cluster/home/antoinco/scRNA_shared_signatures/src/preprocessing/main.py", line 7, in <module>
+    from preprocessing.adatas import Adatas
+ModuleNotFoundError: No module named 'preprocessing'
+Sender: LSF System <lsfadmin@le-g3-012>
+Subject: Job 3911373: <python /cluster/home/antoinco/scRNA_shared_signatures/src/preprocessing/main.py +cancer=ovarian +results_path=/cluster/home/antoinco/thesis/TumourHeterogeneity_OC/dataset/preprocessed> in cluster <ethsec> Exited
+
+Job <python /cluster/home/antoinco/scRNA_shared_signatures/src/preprocessing/main.py +cancer=ovarian +results_path=/cluster/home/antoinco/thesis/TumourHeterogeneity_OC/dataset/preprocessed> was submitted from host <le-g3-012> by user <antoinco> in cluster <ethsec> at Sat Feb  5 21:37:28 2022
+Job was executed on host(s) <16*le-g3-012>, in queue <normal.4h>, as user <antoinco> in cluster <ethsec> at Sat Feb  5 21:37:38 2022
+</cluster/home/antoinco> was used as the home directory.
+</cluster/home/antoinco/thesis/TumourHeterogeneity_OC/notebooks> was used as the working directory.
+Started at Sat Feb  5 21:37:38 2022
+Terminated at Sat Feb  5 21:37:43 2022
+Results reported at Sat Feb  5 21:37:43 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /cluster/home/antoinco/scRNA_shared_signatures/src/preprocessing/main.py +cancer=ovarian +results_path=/cluster/home/antoinco/thesis/TumourHeterogeneity_OC/dataset/preprocessed
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   3.16 sec.
+    Max Memory :                                 136 MB
+    Average Memory :                             109.00 MB
+    Total Requested Memory :                     131072.00 MB
+    Delta Memory :                               130936.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   4 sec.
+    Turnaround time :                            15 sec.
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/cluster/home/antoinco/scRNA_shared_signatures/src/preprocessing/main.py", line 7, in <module>
+    from preprocessing.adatas import Adatas
+ModuleNotFoundError: No module named 'preprocessing'
+Sender: LSF System <lsfadmin@le-g3-010>
+Subject: Job 3911374: <python /cluster/home/antoinco/scRNA_shared_signatures/src/preprocessing/main.py +cancer=ovarian +results_path=/cluster/home/antoinco/thesis/TumourHeterogeneity_OC/dataset/preprocessed> in cluster <ethsec> Exited
+
+Job <python /cluster/home/antoinco/scRNA_shared_signatures/src/preprocessing/main.py +cancer=ovarian +results_path=/cluster/home/antoinco/thesis/TumourHeterogeneity_OC/dataset/preprocessed> was submitted from host <le-g3-012> by user <antoinco> in cluster <ethsec> at Sat Feb  5 21:49:02 2022
+Job was executed on host(s) <16*le-g3-010>, in queue <normal.4h>, as user <antoinco> in cluster <ethsec> at Sat Feb  5 21:49:19 2022
+</cluster/home/antoinco> was used as the home directory.
+</cluster/home/antoinco/thesis/TumourHeterogeneity_OC/notebooks> was used as the working directory.
+Started at Sat Feb  5 21:49:19 2022
+Terminated at Sat Feb  5 21:49:49 2022
+Results reported at Sat Feb  5 21:49:49 2022
+
+Your job looked like:
+
+------------------------------------------------------------
+# LSBATCH: User input
+python /cluster/home/antoinco/scRNA_shared_signatures/src/preprocessing/main.py +cancer=ovarian +results_path=/cluster/home/antoinco/thesis/TumourHeterogeneity_OC/dataset/preprocessed
+------------------------------------------------------------
+
+Exited with exit code 1.
+
+Resource usage summary:
+
+    CPU time :                                   4.28 sec.
+    Max Memory :                                 400 MB
+    Average Memory :                             34.00 MB
+    Total Requested Memory :                     131072.00 MB
+    Delta Memory :                               130672.00 MB
+    Max Swap :                                   -
+    Max Processes :                              4
+    Max Threads :                                5
+    Run time :                                   32 sec.
+    Turnaround time :                            47 sec.
+
+The output (if any) follows:
+
+Traceback (most recent call last):
+  File "/cluster/home/antoinco/scRNA_shared_signatures/src/preprocessing/main.py", line 7, in <module>
+    from preprocessing.adatas import Adatas
+ModuleNotFoundError: No module named 'preprocessing'
