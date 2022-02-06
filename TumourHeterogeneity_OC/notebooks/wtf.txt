@@ -1,0 +1,12 @@
+For some obscure reason, running the following allowed me to import modules from the pipeline
+
+import os
+from importlib.util import spec_from_file_location, module_from_spec
+
+path = '/cluster/home/antoinco/scRNA_shared_signatures/src/'
+
+for fn in os.listdir(path):
+    fp = os.path.join(path, fn)
+    spec = spec_from_file_location(fn, fp)
+    mod = module_from_spec(spec)
+    spec.loader.exec_module(mod)
